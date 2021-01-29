@@ -13,7 +13,9 @@ _book
 # eBook build output
 *.epub
 *.mobi
-*.pdf
 .Rproj.user
 
 code/4_homework3_solutions.R
+code/4_homework3_solutions.pdf
+code/homework-solutions.Rmd
+code/run.R
