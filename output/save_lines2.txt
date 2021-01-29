@@ -1,5 +1,0 @@
-fish
-whale
-invert
-epipelagic
-benthic
