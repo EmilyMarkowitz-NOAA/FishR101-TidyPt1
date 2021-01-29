@@ -33,3 +33,6 @@ name_rank <- rep(1:5, times = 2)
 # 3) find a data set you've worked with and pull it into R
 #     a) fix any problems with column designation, and 
 #     b) clean up the column names (Hint: remember lecture 2)
+#     note) We can help you find a dataset if you don't have one on hand. 
+#           We're excited to see what you're working on next class!
+
