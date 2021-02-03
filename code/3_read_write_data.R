@@ -32,6 +32,8 @@ here("data") # go into the 'data' folder
 # * csv and other local files ---------------------------------------------
 
 # base R:
+# Note: This is real survey data from our actual EBS survey! 
+# https://archive.afsc.noaa.gov/RACE/groundfish/survey_data/data.htm
 ebs_csv_base <- read.csv(file = here("data", "ebs_2017-2018.csv"))
 ebs_csv_base
 
@@ -108,7 +110,7 @@ ebs_header3
 ebs_header4 <- read_csv(file = here("data", "ebs_2017-2018_headers.csv"),
                         skip = 2, col_names = ebs_header_names,
                         col_types = cols(
-                          "LATITUDE" = col_double(),   
+                          "LATITUDE" = col_double(),
                           "LONGITUDE" = col_double(), 
                           "STATION" = col_character(),   
                           "STRATUM" = col_double(),   
