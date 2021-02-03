@@ -18,6 +18,7 @@ here() # this is where you are
 # navigate to sub-folders:
 here("code") # go into the 'code' folder
 here("data") # go into the 'data' folder
+source(here("functions", "file_folders.R"))
 
 # read in data ------------------------------------------------------------
 
